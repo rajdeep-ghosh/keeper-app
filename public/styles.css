@@ -10,6 +10,7 @@ html {
 
 body {
   background: #eee;
+  background-image: url("assets/cubes.png");
   padding: 0 16px;
 }
 
