@@ -1,11 +1,11 @@
 import React from "react";
-import HighlightIcon from '@material-ui/icons/Highlight';
+import { Highlight } from '@material-ui/icons';
 
 function Header() {
     return (
         <header>
             <h1>
-                <HighlightIcon />
+                <Highlight />
                 Keeper
             </h1>
         </header>

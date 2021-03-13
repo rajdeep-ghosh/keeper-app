@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Zoom from '@material-ui/core/Zoom';
-import Fab from '@material-ui/core/Fab';
-import AddIcon from '@material-ui/icons/Add';
+import { Zoom } from '@material-ui/core';
+import { Fab } from '@material-ui/core';
+import { Add } from '@material-ui/icons';
 
 function CreateArea(props) {
     const [note, setNote] = useState({title: "", content: ""});
@@ -43,7 +43,7 @@ function CreateArea(props) {
                 />
                 <Zoom in={isExpanded}>
                     <Fab onClick={handleClick}>
-                        <AddIcon />
+                        <Add />
                     </Fab>
                 </Zoom>
             </form>

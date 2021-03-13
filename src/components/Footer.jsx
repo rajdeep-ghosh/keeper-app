@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <footer>
-            <p>Copyright &copy; {year}</p>
+            <p>&copy; Rajdeep Ghosh {year}. All rights reserved.</p>
         </footer>
     );
 }
